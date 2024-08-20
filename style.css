@@ -1,0 +1,294 @@
+.section__inner img{
+    width: 268px;
+    height: 33px;
+}
+.main-menu {
+    list-style: none;
+    font-size: .9375rem;
+    font-weight: 400;
+    line-height: 2em;
+    padding: 1.33em 0;
+    display: flex;
+    justify-content: space-between;
+    margin: -10px; ;
+    
+}
+.section__inner{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.main-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 3;
+    background: hsla(0, 0%, 100%, .98);
+    transition: box-shadow .25s ease 0s;
+}
+.main-nav{
+    display: flex;
+    
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+  
+}
+nav.main-nav{
+    width: 35%;
+
+}
+nav ul li a{
+    text-decoration: none;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    color: rgb(107, 111, 111);
+}
+.main-menu li {
+    display: inline-block;
+    margin: 25px;
+}
+ul li a:hover{
+    color: rgb(30, 155, 155);
+}
+.lead.section__inner{
+    zoom: 1;
+    max-width: 1015px;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+.lead.section__inner img{
+    height: 7%;
+    width: 7%;
+    display: block;
+    justify-content: center;
+    margin-left: 50%;
+}
+.lead.section__inner h1{
+    color: rgb(60, 191, 147);
+    margin-left: 30%;
+
+}
+.grid{
+    
+    display: flex;
+    width: 100%;
+    margin-left: 25%;
+   justify-items: center;
+
+    
+}
+.col-2{
+    display: flex;
+    width: 30%;
+    min-height: 1px;
+    padding: 10px;
+    font-size: large ;
+    justify-content: space-between;
+    min-height: 1px;
+    font-size: 18px;
+   
+    color:rgb(107, 111, 111) ;
+    }
+    .services {
+        margin: 3.75rem auto 2.5rem;
+    }
+    .services.section__inner {
+        zoom: 1;
+        max-width: 1015px;
+        padding: 0 20px;
+        margin: 0 auto;
+        position: relative}
+        .grid.fade-elements{
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            margin-left: 0;
+        }
+        .col-3{
+            display: flex;
+            width: 25%;
+        }
+        .services__item.services__item--marketplace{
+            width: 25%%;
+            background: #00ccb1;
+        }
+        
+        .services__item.services__item--marketplace h2{
+            font-size: 1.5em;
+    font-weight: 300;
+    line-height: 1.2;
+    margin: 0;
+    color: #fff;}
+    .services__item.services__item--saas{
+        width: 25%%;
+        background: #00ccb1;
+    }
+    .services__item.services__item--saas h2{
+        font-size: 1.5em;
+    font-weight: 300;
+    line-height: 1.2;
+    margin: 0;
+    color: #fff;}
+    .services__item.services__item--clinics{
+        width: 25%%;
+        background: #00ccb1;
+    }
+    .services__item.services__item--clinics h2{
+        font-size: 1.5em;
+    font-weight: 300;
+    line-height: 1.2;
+    margin: 0;
+    color: #fff;}
+    .brands.section__inner {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        margin-top: 0px;
+    }
+    .brands.section__inner h1{
+        font-size: 1.625em;
+    margin: 0.25em 0 0.35em;
+    padding-right: 1em;
+    color: #00b39b;
+    font-family: Work Sans, Arial, sans-serif;
+    font-weight: 300;
+    letter-spacing: -0.3px;}
+   /* Container for the brands section */
+.brands {
+    padding: 20px; /* Space around the section */
+    background-color: #f8f8f8; /* Light grey background for contrast */
+  }
+  
+  /* Inner container to align content */
+  .brands__inner {
+    max-width: 1200px; /* Limit width for better readability */
+    margin: 0 auto; /* Center align */
+    padding: 10px; /* Inner spacing */
+  }
+  
+  /* Heading style */
+  .brands h1 {
+    font-size: 30px; /* Font size */
+    color: #333; /* Dark grey color for text */
+    text-align: center; /* Center align text */
+    margin-bottom: 20px; /* Space below heading */
+    width: 50%;
+    height: 50%;
+  }
+  
+  /* Flex container for the logos */
+  .brands__logos {
+    display: flex; /* Flexbox for alignment */
+    flex-wrap: wrap; /* Wrap logos to new line if necessary */
+    justify-content: center; /* Center align logos */
+    gap: 20px; /* Space between logos */
+    width: 80%;
+    height: 50%;
+   
+  }
+  
+  /* Individual logo style */
+  .brands__logos li {
+    list-style: none; 
+   
+  }
+  
+  /* Style for SVG logos */
+  .brands__logos svg {
+    display: block; /* Remove extra space below SVG */
+    max-width: 100%; /* Ensure logos are responsive */
+    height: auto; /* Maintain aspect ratio */
+    transition: transform 0.3s ease, opacity 0.3s ease; /* Smooth hover effect */
+    font-size: 10px;
+  }
+   @media (max-width: 768px) {
+    .brands__logos {
+      flex-direction: column; /* Stack logos vertically on small screens */
+      align-items: center; /* Center align vertically stacked logos */
+    }
+  }
+ /* General styles for section4 */
+.section4 {
+    padding: 40px 20px; /* Add padding around the section */
+    background-color: #ffffff; /* White background for clarity */
+    position: relative; /* For positioning background image */
+    display: flex;
+   background-color: #d0faf4 ;
+
+  }
+  
+  /* Header styles */
+  .section4header {
+    text-align: center; /* Center-align text */
+    margin-bottom: 40px; /* Space below header */
+    position: relative; /* For positioning the background logo */
+  }
+  
+  .section4header h2 {
+    font-size: 36px; /* Font size for the main heading */
+    color: #333; /* Dark grey color for text */
+    line-height: 1.2; /* Line height for better readability */
+    margin: 0; /* Remove default margin */
+  }
+  
+  .section4header p {
+    font-size: 18px; /* Font size for the paragraph */
+    color: #666; /* Grey color for text */
+    margin-top: 10px; /* Space above paragraph */
+  }
+  
+  .section4header img {
+    position: absolute; /* Position logo in header */
+    right: 0; /* Align to the right */
+    bottom: 0; /* Align to the bottom */
+    width: 100px; /* Set a fixed width for the logo */
+    opacity: 0.1; /* Low opacity for background effect */
+  }
+  
+  /* Styles for the four parts section */
+  .section4fourparts {
+    display: flex; /* Flexbox layout for the four parts */
+    flex-wrap: wrap; /* Allow wrapping on smaller screens */
+    justify-content: space-between; /* Space out the items */
+    gap: 20px; /* Space between items */
+  }
+  
+  .first2, .second2 {
+    flex: 1; /* Allow sections to grow and shrink */
+    display: flex; /* Flexbox for inner items */
+    flex-direction: column; /* Arrange items vertically */
+    gap: 20px; /* Space between items */
+  }
+  
+  /* Style for each part */
+  .first2 div, .second2 div {
+    background-color: #f8f8f8; /* Light grey background for each part */
+    border-radius: 8px; /* Rounded corners */
+    padding: 20px; /* Inner padding */
+    text-align: center; /* Center-align text and images */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+    transition: transform 0.3s ease; /* Smooth hover effect */
+  }
+  
+  .first2 div img, .second2 div img {
+    max-width: 60px; /* Max width for images */
+    height: auto; /* Maintain aspect ratio */
+    margin-bottom: 10px; /* Space below image */
+  }
+  
+  .first2 div h3, .second2 div h3 {
+    font-size: 22px; /* Font size for headings */
+    color: #333; /* Dark grey color for headings */
+    margin: 10}
+  
+    
